@@ -1,10 +1,16 @@
-﻿using System;
-namespace Practice0527
+﻿namespace Assessment3Practice
 {
-    public class Slacker
+    public class Slacker : Villiager
     {
+
         public Slacker()
         {
+            Hunger = 3;
+        }
+
+        public override int Farm()
+        {
+            return 0;
         }
     }
 }
